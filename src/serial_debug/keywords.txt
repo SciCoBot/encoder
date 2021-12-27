@@ -1,0 +1,26 @@
+#########################################
+# Syntax Coloring Map For serialDebug
+#########################################
+
+#########################################
+# Datatypes (KEYWORD1)
+#########################################
+
+#########################################
+# Methods and Functions (KEYWORD2)
+#########################################
+
+DEBUG		KEYWORD2
+DEBUGLN		KEYWORD2
+SEPARATOR		KEYWORD2
+DEBUG_PRINT_FILE			KEYWORD2
+DEBUG_PRINT_LINE		KEYWORD2
+DEBUG_PRINT_PRETTY_FUNCTION		KEYWORD2
+PRINTVARIABLE		KEYWORD2
+debugTime			KEYWORD2
+debugTimeBreak		KEYWORD2
+
+#########################################
+# Constants (LITERAL1)
+#########################################
+
