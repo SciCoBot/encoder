@@ -30,7 +30,11 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
 **********************************************************************************/
-#include <encoder.h>
+#include "encoder.h"
+
+#if ENCODER_DEBUG == 1
+	#include "../include/serial_debug/src/serial_debug.h"
+#endif
 
 void Encoder::init(uint8_t pinDigital, void (*functionInterrupt)(), uint8_t mode)
 { 
@@ -46,7 +50,7 @@ void Encoder::init(uint8_t pinDigital, void (*functionInterrupt)(), uint8_t mode
 	
 		delay(2);
 		#if ENCODER_DEBUG == 1
-			  Serial.print("Encoder starting successfully");
+			  DEBUGLN("Encoder starting successfully");
 		#endif
 }
 
@@ -60,8 +64,8 @@ unsigned short int Encoder::readAndReset()
 {
 	unsigned short int pulseTemp = _pulses;
 	#if ENCODER_DEBUG == 1
-		Serial.print("readAndReset(): ");
-		Serial.println(pulseTemp);
+		DEBUG("readAndReset(): ");
+		DEBUGLN(pulseTemp);
 	#endif
 	_pulses = 0;
 	return pulseTemp;	
@@ -96,8 +100,8 @@ float Encoder::getRpm()
 		_prevEncoderTicks = _nowEncoderTicks;
 		
 		#if ENCODER_DEBUG == 1
-			  Serial.print("RPM = ");
-			  Serial.println(rpm);
+			  DEBUG("RPM = ");
+			  DEBUGLN(_rpm);
 		#endif
     	
 		return _rpm;

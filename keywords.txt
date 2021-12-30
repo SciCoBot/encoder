@@ -1,32 +1,15 @@
 #########################################
-# Syntax Coloring Map For SimpleMotor, DualMotor
+# Syntax Coloring Map For
 #########################################
 
 #########################################
 # Datatypes (KEYWORD1)
 #########################################
 
-SimpleMotor			KEYWORD1
-DualMotor	 		KEYWORD1
 
 #########################################
 # Methods and Functions (KEYWORD2)
 #########################################
-
-getSpeed		KEYWORD2
-forward		KEYWORD2
-backward		KEYWORD2
-stop			KEYWORD2
-
-getSpeedA		KEYWORD2
-forwardA		KEYWORD2
-backwardA		KEYWORD2
-stopA			KEYWORD2
-
-getSpeedB		KEYWORD2
-forwardB		KEYWORD2
-backwardB		KEYWORD2
-stopB			KEYWORD2
 
 
 #########################################
