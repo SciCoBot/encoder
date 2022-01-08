@@ -54,7 +54,6 @@ void Encoder::init(uint8_t pinDigital, void (*functionInterrupt)(), uint8_t mode
 		#endif
 }
 
-
 unsigned short int Encoder::read()
 {
 	return _pulses;
@@ -71,15 +70,15 @@ unsigned short int Encoder::readAndReset()
 	return pulseTemp;	
 }
 
-//void Encoder::incrementPulses()
-//{
-	//_pulses = _pulses + 1;
+void Encoder::incrementPulses()
+{
+	_pulses = _pulses + 1;
 	
-	//#if ENCODER_DEBUG == 1
-		//Serial.print("Increment pulses: ");
-		//Serial.println(_pulses);
-	//#endif
-//}
+	#if ENCODER_DEBUG == 1
+		Serial.print("Increment pulses: ");
+		Serial.println(_pulses);
+	#endif
+}
 
 float Encoder::getRpm()
 {
