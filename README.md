@@ -13,7 +13,7 @@
 
 Está biblioteca tem como objetivo fornecer funções e macros para sensor encoder HC-020K. 
 
-Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default, esperasse que a interrupção ative sempre que o estado do pino for de HIGH para LOW, ou seja quando passa de um furo para uma obstrução no disco do encoder.
+Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default, esperasse que a interrupção ative sempre que o estado do pino for de HIGH para LOW, ou seja, quando passa de um furo para uma obstrução no disco do encoder.
 
 ## Comandos Básicos
 
