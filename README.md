@@ -23,7 +23,7 @@ Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default,
 
 ### Funções:
 - **getRpm():** calcula e retorna a velocidade em RPM;
-- **init(pinDigital, functionInterrupt)):** um objeto deve primeiro ser iniciado para o correto funcionamento da biblioteca. Esta função seta os valores iniciais das variáveis de classe e inicia a interrupção utilizando o pino e o modo fornecido.
+- **init(pinDigital, functionInterrupt)):** um objeto deve primeiro ser iniciado para o correto funcionamento da biblioteca. Esta função seta os valores iniciais das variáveis de classe e inicia a interrupção utilizando o pino, a função e o modo fornecido.
 - **read():** retorna a quantidade de pulsos.
 - **readAndReset():** retorna a quantidade de pulsos e zera o valor.
 - **incrementPulses():** soma mais um no vlaor de pulso.
@@ -37,6 +37,6 @@ Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default,
 - Teste o exemplo.
 
 ## Implementaçõs Futuras
-- Implementar init() que recebe o endereço de uma função externa a biblioteca.
+
 
 
