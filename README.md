@@ -26,11 +26,11 @@ Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default,
 - **ENCODER_DEBUG:** utilizado para habilitar ou desabilitar mensagens debug padrão. Utilize 1 para habilitar. Por default é igual a 0.
 
 ### Funções:
-- **getRpm():** calcula e retorna a velocidade em RPM;
-- **init(pinDigital, functionInterrupt)):** um objeto deve primeiro ser iniciado para o correto funcionamento da biblioteca. Esta função seta os valores iniciais das variáveis de classe e inicia a interrupção utilizando o pino, a função e o modo fornecido.
-- **read():** retorna a quantidade de pulsos.
-- **readAndReset():** retorna a quantidade de pulsos e zera o valor.
-- **incrementPulses():** soma mais um no vlaor de pulso.
+- **Encoder::getRpm():** calcula e retorna a velocidade em RPM;
+- **Encoder::init(pinDigital, functionInterrupt)):** um objeto deve primeiro ser iniciado para o correto funcionamento da biblioteca. Esta função seta os valores iniciais das variáveis de classe e inicia a interrupção utilizando o pino, a função e o modo fornecido.
+- **Encoder::read():** retorna a quantidade de pulsos.
+- **Encoder::readAndReset():** retorna a quantidade de pulsos e zera o valor.
+- **Encoder::incrementPulses():** soma mais um no vlaor de pulso.
 
 ## Como Utilizar
 
