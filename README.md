@@ -18,8 +18,8 @@ Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default,
 ## Comandos Básicos
 
 ### Definições:
-- COUNTS_PER_REV: quantidade de furos do disco encoder.
-- ENCODER_DEBUG: utilizado para habilitar ou desabilitar mensagens debug padrão. Utilize 1 para habilitar. Por default é igual a 0.
+- **COUNTS_PER_REV:** quantidade de furos do disco encoder.
+- **ENCODER_DEBUG:** utilizado para habilitar ou desabilitar mensagens debug padrão. Utilize 1 para habilitar. Por default é igual a 0.
 
 ### Funções:
 - **getRpm():** calcula e retorna a velocidade em RPM;
