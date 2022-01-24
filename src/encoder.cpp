@@ -32,10 +32,6 @@
 **********************************************************************************/
 #include "encoder.h"
 
-#if ENCODER_DEBUG == 1
-	#include "../include/serial_debug/src/serial_debug.h"
-#endif
-
 void Encoder::init(uint8_t pinDigital, void (*functionInterrupt)(), uint8_t mode)
 { 
 		_pinDigital = pinDigital;
