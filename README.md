@@ -2,7 +2,7 @@
 [![platform badge](https://img.shields.io/badge/platform-Arduino-orange.svg)](https://github.com/arduino)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/SciCoBot/led_debug/blob/main/LICENSE)
 
-## Contents
+## Conteúdo
 
 - [Sobre](#sobre)
 - [Comandos Básicos](#comandos-básicos)
