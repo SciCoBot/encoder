@@ -36,6 +36,9 @@
 #include <Arduino.h>
 
 #define ENCODER_DEBUG 0 // Debug mode
+#if ENCODER_DEBUG == 1
+	#include "../include/serial_debug/src/serial_debug.h"
+#endif
 
 #define COUNTS_PER_REV 20
 
