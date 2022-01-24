@@ -13,6 +13,10 @@
 
 Está biblioteca tem como objetivo fornecer funções e macros para sensor encoder HC-020K. 
 
+<p align="center">
+  <img src="https://github.com/SciCoBot/encoder/blob/main/images/encoder.jpg?raw=true"/height="250" width="250">
+</p>
+
 Em resumo, a biblioteca utiliza o pino indicado como interrupção. Por default, esperasse que a interrupção ative sempre que o estado do pino for de HIGH para LOW, ou seja, quando passa de um furo para uma obstrução no disco do encoder.
 
 ## Comandos Básicos
