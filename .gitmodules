@@ -1,3 +1,0 @@
-[submodule "include/serial_debug"]
-	path = include/serial_debug
-	url = https://github.com/SciCoBot/serial_debug.git
