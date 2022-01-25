@@ -71,8 +71,8 @@ void Encoder::incrementPulses()
 	_pulses = _pulses + 1;
 	
 	#if ENCODER_DEBUG == 1
-		Serial.print("Increment pulses: ");
-		Serial.println(_pulses);
+		DEBUG("Increment pulses: ");
+		DEBUGLN(_pulses);
 	#endif
 }
 
